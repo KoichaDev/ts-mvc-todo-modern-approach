@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/vite.svg" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>MVC - TODO App</title>
+
+		<script
+			type="module"
+			src="/src/app.ts"
+			defer></script>
+		<link
+			rel="stylesheet"
+			href="src/style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+	</head>
+	<body>
+		<main class="m-0">
+			<form id="todo-form">
+				<label
+					for="todo"
+					class="label"
+					>Todo</label
+				>
+				<input
+					type="text"
+					id="entered-todo"
+					class="input" />
+
+				<button
+					type="submit"
+					class="btn-primary">
+					Submit
+				</button>
+			</form>
+
+			<ul id="todos"></ul>
+		</main>
+	</body>
+</html>
