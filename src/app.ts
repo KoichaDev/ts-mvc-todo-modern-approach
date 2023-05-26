@@ -1,6 +1,7 @@
 'use strict';
 
 import { store } from './store';
+import './helpers/patterns/reactive/test';
 
 document.addEventListener('DOMContentLoaded', () => {
 	const App = {
